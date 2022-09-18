@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- --- This Is Meta Tag -- -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="Description" CONTENT="Best Web Development & Digital Company in UK">
+      <title> Cubic Education </title>
+      <!-- --- This Is Style -- -->
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- <link rel="shortcut icon" href="assets/img/faviconn.png" type="image/x-icon" /> -->
+    <style type="text/css">  
+        @font-face {
+        font-family: "poppins";
+        src: url("assets/fonts/poppins/Poppins-Regular.ttf");
+        }
+
+        section.single-service-banner {
+            padding-bottom: 30px;
+        }
+        .panel.panel-default.tab-pad-s2 {
+            margin-top: 5px;
+        }
+        .our-technology.google-ads-599{
+            margin: 0;
+            padding: 0;
+        }
+        .our-technology {
+            padding-top: 0px;
+        }
+        section.our-service.service-page {
+            padding: 10px 0px 50px 0px;
+            background: #EDF1FF;
+        }
+        .google-ads-599.platform .single-icon-item {
+            height: 380px;
+        }
+        /* .header-aria a.navbar-brand {
+            background: url({{asset('assets/img/logo.png')}})no-repeat center center /cover;
+        } */
+        section.single-service-banner{
+        border-bottom: 5px solid #2e90ea63 !important;
+        }
+    </style>
+		
+<link href="assets/css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/custom.css">
+<link rel="stylesheet" href="assets/css/home-page.css">
+          
+<style>
+    div#topcontrol {
+        bottom: 20px !important;
+        right: 24px !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+      div#topcontrol {
+          bottom: 20px !important;
+          right: 15px !important;
+      }
+    }
+</style>
+
+<!-- --- This Extra Style for Each page -- -->          
+    <!-- @yield('style') -->
+<!-- --- This Extra Style for Each page -- -->
+</head>
+    <body>
+        <header class="header-aria">
+            <div class="container">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="custom-navbar-logo" href="#">
+                      <img style="width: 215px; height: 56px; padding-top: 15px;" src="assets/images/logo.png" alt="">
+                    </a>
+                  </div>
+          
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse top-header" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-style topheader-ul">
+                      <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Study Abroad <span class="caret"></span></a>
+                        <ul class="dropdown-menu menu-service">
+                          <li class="service-list">
+                            <h5>Digital Marketing</h5>
+                            <ul>
+                          
+                          <li class="custom_dropdown"><i class="fa fa-caret-right"></i>
+                                Social Media Marketing
+                                <!--<ul>-->
+                                <!--  <li data-value="1"><a href="javascript:void(0)"> <i class="fa fa-caret-right"></i> -->
+                                <!--  Social Media Marketing </a>-->
+                                <!--  </li>-->
+                                <!--  <li data-value="1"><a href="javascript:void(0)"> <i class="fa fa-caret-right"></i> -->
+                                <!--  Social Media Marketing </a>-->
+                                <!--  </li>-->
+                                <!--  <li data-value="1"><a href="javascript:void(0)"> <i class="fa fa-caret-right"></i> -->
+                                <!--  Social Media Marketing </a>-->
+                                <!--  </li>-->
+                                <!--</ul>-->
+                          </li>
+                          
+                              <li><a href="#"><i class="fa fa-caret-right"></i> Social Media Management</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right"></i> Google Search Ads</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right"></i> Google Shopping Ads</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right"></i> YouTube Ads</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right"></i> Content Writing</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right"></i> Email Marketing</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right"></i> Telemarketing</a></li>
+                              <li><a href="#"><i class="fa fa-caret-right"></i> SMS Marketing</a></li>
+                            </ul>
+                          </li>
+                          <li class="service-list">
+                            <h5>Search Engine Optimization(SEO)</h5>
+                            <ul>
+                              <li><a href="{{route('google.search.ads')}}"><i class="fa fa-caret-right"></i> Organic SEO</a></li>
+                              <li><a href="{{route('youtube.ads')}}"><i class="fa fa-caret-right"></i> Offpage SEO</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Onpage SEO</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Local SEO</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Guest Post Service</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> SEO Audit</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Online Reputation Management</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Ecommerce SEO</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Technical SEO</a></li>
+                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Online Reputation Management</a></li>
+                            </ul>
+                          </li>
+                          <li class="service-list">
+                            <h5>Graphic Design</h5>
+                            <ul>
+                              <li><a href="{{route('facebook.advertising')}}"><i class="fa fa-caret-right"></i> Logo Design</a></li>
+                              <li><a href="{{route('instagram.advertising')}}"><i class="fa fa-caret-right"></i> Clipping Path</a></li>
+                              <li><a href="{{route('linkedin.advertising')}}"><i class="fa fa-caret-right"></i> Photo</a></li>
+                              <li><a href="{{route('pinterest.advertising')}}"><i class="fa fa-caret-right"></i> Ecommerce Image Editing</a></li>
+                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Flyers & Brochures Design</a></li>
+                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Business Card Design</a></li>
+                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Banners Design</a></li>
+                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Social Media Ads Design</a></li>
+                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Clipping Path</a></li>
+                            </ul>
+                          </li>
+                          <li class="service-list">
+                            <h5>Mobile App Development</h5>
+                            <ul>
+                              <li><a href="{{route('organic.seo')}}"><i class="fa fa-caret-right"></i> Cross Platform App Development</a></li>
+                              <li><a href="{{route('onpage.seo')}}"><i class="fa fa-caret-right"></i> Android  Application Development</a></li>
+                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> IOS Application Development</a></li>
+                            </ul>
+                             <h5 style="padding-top:10px;">Website Development</h5>
+                            <ul>
+                              <li><a href="{{route('organic.seo')}}"><i class="fa fa-caret-right"></i> Business Web Development</a></li>
+                              <li><a href="{{route('onpage.seo')}}"><i class="fa fa-caret-right"></i> ECommerce Web Development</a></li>
+                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> Web Application Development</a></li>
+                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> Website Speed Optimization</a></li>
+                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> Website Maintenance Service</a></li>
+                            </ul>
+                          </li>
+                          <!-- <div class="mega-menu-middle-line"></div> -->
+                          
+                        </ul>
+                      </li>
+                      <li><a href="{{route('contact')}}">CONTACT US</a></li>
+          
+          
+          
+                                  <!-- {{-- @if(Auth::user())
+                      <li><a href="{{route('home')}}" style="background: #2171dd !important; color: #fff !important;">Admin Dashboard</a></li>
+                                  @endif --}} -->
+          
+          
+                    </ul>
+          
+          
+                    <ul class="nav navbar-nav navbar-right" style="margin-right: 0px !important; margin-left:0px !important">
+                   <!--    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="{{asset('assets/img/header/1.png')}}" class="lang-img"> EN <span class="caret"></span></a>
+                        <ul class="dropdown-menu lang">
+                          <li><a href="#">ENG</a></li>
+                          <li><a href="#">BN</a></li>
+                        </ul>
+                      </li>   -->      
+                        <li><a href="" class="btn-top" style="background: #056CB3; border-radius: 5px !important; font-size: 11px !important;">Book an Appointment</a></li>
+                        <li style="margin-left: 8px !important;"><a href="" class="btn-top" style="background: #056CB3; border-radius: 5px !important; font-size: 11px;">Book Appointment</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+            </div>
+          </header>
+
+          <section class="banner-aria">
+            <div class="container">
+        
+              <!-- <div class="row hero-section-row-wrapping">
+        
+                  <div class="col-md-7">
+                    <div  class="banner-left-aria">
+                      <h5 style="color: #f2623e;">Welcome To Our Company</h5>
+                      <h2>
+                        Best Web Development & <br> Digital Marketing Agency <br>In the Bangladesh</h2>
+                      <a href="#" class="btn-bg-service wow fadeInUp"  data-wow-duration="3s" data-wow-delay=".1s" style="background: #f2623e">FREE AUDIT  </a>
+                      
+                      <a href="#contact-footer"  class="btn-bg-service js-anchor-link  wow fadeInUp" data-wow-duration="3s" data-wow-delay=".1s" style="background: #f2623e">Contact Us </a>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-5">
+                    <div class="hero-right-section-wrap">
+                      <img src="images/hero/hero-right.png" alt="">
+                      
+                      <div class="right-box-absolute">
+                        <h2>5+ <br><span>Years of <br> Experience</span></h2>
+                      </div>
+                     
+                    </div>
+                  </div>
+                  
+              </div> -->
+            </div>
+        </section>
+
+
+        <!-- Our Services -->
+        <section class="pad-top-50 wow fadeInUp"  data-wow-duration="2.5s" data-wow-delay=".1s">
+            <div class="container">
+          
+          
+              <div class="row wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s">
+                <div class="we-serve-title-wrapping" style="width: 50%; margin: auto;">
+                    <h2>Our Services</span></h2>
+                    <p>
+                        Cubic Education offers you the best possible study package in concurrence with your needs, both financial and curriculum-wise
+                    </p>
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-md-4">
+                      <div class="single-icon-item">
+                          <div class="card">
+                            <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
+                            <div class="our-service-logo">
+                                <!-- <img src="assets/img/our-service/Bank 1.png" alt=""> -->
+                                <object data="assets/img/our-service/Bank 1.svg" type="" width="66px" height="69px"></object>
+                            </div>
+                            <div class="card-body c-card-body">
+                              <h3>Bank Assistance and Travel Arrangements</h3>
+                              <p class="card-text">We take a close look into our campaign analytics, if it needs to optimize we do that properly for getting better results. Finally, we make a report for better analysis &amp; concentrate on this report until it’s properly done.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+          
+          
+                <div class="col-md-4">
+                      <div class="single-icon-item">
+                          <div class="card">
+                            <div class="our-service-logo">
+                                <!-- <img src="assets/img/our-service/Country-iconCubic-Icons-making 1.png" alt=""> -->
+                                <object data="assets/img/our-service/Visa 1.svg" type="" width="66px" height="69px"></object>
+                            </div>
+                            <div class="card-body c-card-body">
+                              <h3>Country/University and Course Selection</h3>
+                              <p class="card-text">Taking into consideration your academic background, financial capabilities, subjects of interest and future plans, Cubic Education will help you in identifying the right course in the right college/university.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="single-icon-item">
+                          <div class="card">
+                            <div class="our-service-logo">
+                                <!-- <img src="assets/img/our-service/Bank 1.png" alt=""> -->
+                                <object data="assets/img/our-service/filepng 1.svg" type="" width="66px" height="69px"></object>
+                            </div>
+                            <div class="card-body c-card-body">
+                              <h3>Application Processing</h3>
+                              <p class="card-text">Assistance in preparing the application file and required documents such as transcripts, letter of recommendations, essays (Statement of Purpose) etc. is given on the basis of a successful strategy to maximize the chance of admissions.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                      <div class="single-icon-item">
+                          <div class="card">
+                            <div class="our-service-logo">
+                                <!-- <img src="assets/img/our-service/Bank 1.png" alt=""> -->
+                                <object data="assets/img/our-service/File 1.svg" type="" width="66px" height="69px"></object>
+                            </div>
+                            <div class="card-body c-card-body">
+                              <h3>Follow-up and Securing Admission</h3>
+                              <p class="card-text">We do the necessary follow-up and secure admissions in the shortest possible time. Cubic Education’s success rate in admissions is 100%.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="single-icon-item">
+                          <div class="card">
+                            <div class="our-service-logo">
+                                <!-- <img src="assets/img/our-service/Bank 1.png" alt=""> -->
+                                <object data="assets/img/our-service/Visa 1.svg" type="" width="66px" height="69px"></object>
+                            </div>
+                            <div class="card-body c-card-body">
+                              <h3>Visa Guidance</h3>
+                              <p class="card-text">Cubic Education provides the guidance in preparing your visa application and necessary documentation enabling you to put in conclusive proof in terms of establishing your academic genuineness,</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="single-icon-item">
+                          <div class="card">
+                            <div class="our-service-logo">
+                                <!-- <img src="assets/img/our-service/Bank 1.png" alt=""> -->
+                                <object data="assets/img/our-service/ielts 1.svg" type="" width="66px" height="69px"></object>
+                            </div>
+                            <div class="card-body c-card-body">
+                              <h3>Guidance for IELTS/ TOEFL/GRE/GMAT/SAT</h3>
+                              <p class="card-text">Cubic Education assists you in scheduling the required tests, Filing application forms, scheduling the tests, giving the probable list of universities where the scores can be reported etc.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <section class="banner-aria-two">
+            <div class="container">
+        
+                <div class="row hero-section-row-wrapping">
+        
+                    <div class="col-md-7">
+                        <div  class="banner-left-aria">
+                            <h5>WHY study abroad?</h5>
+                            <h2>Studying abroad helps you to learn new languages, appreciate other cultures, overcome challenges of living in another country and gain a greater understanding of the world. These are all things that modern businesses look for when hiring, and such traits will only become more important in the future.</h2>
+                            <a href="#" class="btn-bg-service wow fadeInUp"  data-wow-duration="3s" data-wow-delay=".1s">Know More  </a>
+                            
+                            <!-- <a href="#contact-footer"  class="btn-bg-service js-anchor-link  wow fadeInUp" data-wow-duration="3s" data-wow-delay=".1s" style="background: #f2623e">Contact Us </a> -->
+                        </div>
+                    </div>
+        
+                    <div class="col-md-5">
+                        <div class="hero-right-section-wrap">
+                            <img src="assets/img/our-service/Cubic-Image-2 1.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    </section>
+
+          
+            <!-- study abroad destination -->
+
+    <section class="pad-top-50 wow fadeInUp"  data-wow-duration="2.5s" data-wow-delay=".1s">
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s">
+                <div class="we-serve-title-wrapping" style="width: 50%; margin: auto;">
+                    <h2>Our Services</span></h2>
+                    <p>
+                        Cubic Education offers you the best possible study package in concurrence with your needs, both financial and curriculum-wise
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s" data-order="1">
+                    <div class="studyabroaddest">
+                      <img src="/assets/img/abroad-destination/Rectangle 26.png">
+                      <h3><a href="#">Study in UK</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s" data-order="1">
+                    <div class="studyabroaddest">
+                      <img src="/assets/img/abroad-destination/Rectangle 27.png">
+                      <h3><a href="#">Study in USA</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s" data-order="1">
+                    <div class="studyabroaddest">
+                      <img src="/assets/img/abroad-destination/Rectangle 28.png">
+                      <h3><a href="#">Study in Australia</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s" data-order="1">
+                    <div class="studyabroaddest">
+                      <img src="/assets/img/abroad-destination/Rectangle 29.png">
+                      <h3><a href="#">Study in Canada</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s" data-order="1">
+                    <div class="studyabroaddest">
+                      <img src="/assets/img/abroad-destination/Rectangle 30.png">
+                      <h3><a href="#">Study in Sweden</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay=".1s" data-order="1">
+                    <div class="studyabroaddest">
+                      <img src="/assets/img/abroad-destination/Rectangle 31.png">
+                      <h3><a href="#">Study in malaysia</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <!-- footer -->
+      <footer class="footer-aria">
+        <div class="container">
+            <div class="row">
+                <div class="footer-top">
+                    <div class="col-md-4">
+                        <div class="footer-one-aria">
+                            <img class="img-fluid" src="{{ asset('assets/img/Black-and-WhiteThemeshaper-logo.png') }}">
+                            <p style="width: 70%">Themeshaper is one of the best and leading innovative software Development
+                                and Digital Marketing Company in Bangladesh
+                            <div style="border: 0.5px solid rgb(170, 165, 149); width:100%; margin-top: 20px;"></div>
+    
+                            </p>
+                            <div style="color: white; font-size: 1.5rem;">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span style="color: black; font-size: 2rem;"><i class="fa fa-phone"
+                                                aria-hidden="true"></i></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span>+889383838338383</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="color: white; font-size: 1.5rem;">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span style="color: black; font-size: 2rem;"><i class="fa fa-envelope"
+                                                aria-hidden="true"></i></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span>info@themeshaper.net</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="color: white; font-size: 1.5rem;">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span style="color: black; font-size: 2rem;"><i class="fa fa-map-marker"
+                                                aria-hidden="true"></i></span>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <span>House-07, Kabi Faruk Sharoni, <br>
+                                            Nikunja-02, Dhaka-1229
+                                        </span>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="footer-middle center">
+                                    <h3>Our Services
+                                        <div style="border: 0.2px solid rgb(170, 165, 149); width:100%; margin-top: 20px;">
+                                        </div>
+                                    </h3>
+                                    <ul>
+                                        <li><a href="{{ route('web.development') }}">Software
+                                                Development</a></li>
+                                        <li><a href="{{ route('web.development') }}"> Web Development</a></li>
+                                        <li><a href="{{ route('social.advertising') }}">Digital Marketing</a></li>
+                                        <li><a href="{{ route('search.engine') }}">Search Engine
+                                                Optimization</a></li>
+                                        <li><a href="{{ route('content.writing') }}">Creative Graphics Design</a></li>
+                                        <li><a href="{{ route('email.marketing') }}">Content Development</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                              <div class="footer-middle center">
+                                <h3>Our Product
+                                  <div style="border: 0.2px solid rgb(170, 165, 149); width:100%; margin-top: 20px;"></div>
+                                </h3>
+                                <ul>
+                                    <li><a href="{{ route('web.development') }}">ERP Software</a></li>
+                                    <li><a href="{{ route('web.development') }}"> HR & Payroll Soft</a></li>
+                                    <li><a href="{{ route('social.advertising') }}">Point of Sales</a></li>
+                                    <li><a href="{{ route('search.engine') }}">Accounting Software</a></li>
+                                    <li><a href="{{ route('content.writing') }}">Inventory Management</a></li>
+                                    <li><a href="{{ route('email.marketing') }}">System</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-middle center">
+                            <h3>Our Company
+                                <div style="border: 0.5px solid rgb(170, 165, 149); width:100%; margin-top: 20px;"></div>
+                            </h3>
+                            <ul>
+                              <li><a href="{{ route('web.development') }}">About Us</a></li>
+                              <li><a href="{{ route('web.development') }}"> Contact Us</a></li>
+                              <li><a href="{{ route('social.advertising') }}">Blog</a></li>
+                              <li><a href="{{ route('search.engine') }}">Career</a></li>
+                              <li><a href="{{ route('content.writing') }}">Terms & Service</a></li>
+                              <li><a href="{{ route('email.marketing') }}">Privacy Policy</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-btm">
+                        <p>&copy; 2022 Theme Shaper. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>

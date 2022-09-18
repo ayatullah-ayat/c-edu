@@ -1,0 +1,35 @@
+section.contact-main-aria {
+              background: url(../img/audit.jpg)no-repeat center center/cover;
+              position: relative;
+          }
+section.contact-main-aria:before {
+    position: absolute;
+    content: "";
+    top: 0
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+90deg, rgb(0 0 0 / 97%) 0%, rgb(27 96 215 / 86%) 100%);
+}
+
+.left-con-aria , .right-con-aria ,  .right-con-aria h2{
+    color: #fff;
+}
+section.contact-main-aria .container {
+    padding: 20px 0px;
+}
+section.contact-main-aria{
+	padding: 0px 0px;
+}
+.free-audit-aria-445d6c {
+    color: #fff;
+}
+section.why-google-ads ul li {
+    padding: 5px 0;
+    font-family: 'poppins';
+}
+.row.btm-aduit {
+    text-align: center;
+    padding: 20px 0px;
+}

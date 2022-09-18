@@ -1,0 +1,22 @@
+.studyabroaddest {
+    text-align: center;
+}
+.studyabroaddest img {
+    width: 334px;
+    height: 250px;
+    border-radius: 10px;
+}
+.studyabroaddest h3 {
+    margin-top: 8px;
+}
+.studyabroaddest h3 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-transform: capitalize;
+
+    color: #313131 !important;
+}

@@ -1,0 +1,89 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 80px) and (max-width: 767px) { 
+		/*-------- Mobile Version ---------*/
+		/*Menu*/
+		header.header-aria {     position: unset !important;}
+		/*Home*/
+		.banner-left-aria { margin: 0;}
+		.banner-aria {    padding: 0px 0px 43px 0px; }
+		.our-technology.home {
+    margin: 0;
+    padding: 0;
+}
+		/*Single Service Page*/
+		section.single-service-banner{ margin-top: 0; padding-top: 0px;}
+		.banner-right-image {display: none;}
+		.banner-left-aria h5 { font-size: 17px;}
+		.banner-left-aria h2 {     font-size: 25px;  }
+		.banner-left-aria { padding-left: 30px; padding-right: 30px;}
+		section.banner-btm-service ul li a { font-size: 14px; padding: 0px 5px;}
+		.section-title.single-service h2 { font-size: 25px; }
+		.our-technology { padding: 50px 20px; }
+		section.why-google-ads { text-align: center; padding: 0px 20px;}
+		section.tab-section-single-page.tab-254 .col-xs-3 { width: 100%;}
+		section.tab-section-single-page.tab-254 { padding: 0px 20px; }
+		.tab-254 ul.nav.nav-tabs.tabs-left li a { padding: 15px 30px;}
+		section.tab-section-single-page.tab-254 .col-xs-9 {    width: 100%; }
+		section.our-service.pad-top-50 { padding: 0px 20px;}
+		section.our-service { padding: 0px 20px;}
+		.left-con-aria { border-radius: 0PX; margin: : 0px 15px; padding: 20px 20px; text-align: center; }
+		.left-con-aria { margin-bottom: 0px;}
+		.right-con-aria { text-align: center; padding: 30px 0px; }
+		.section-title.single-service { margin: 0;padding: 0 !important;}
+		section.banner-btm-service ul li { display: block !important; width: 100% !important;padding: 10px 0px;}
+		section.banner-btm-service ul li:before { background: none; }
+		.section-title.single-service { margin: 0px !important; padding: 0 !important;}
+		.section-title.single-service h2 { margin: 0px;}
+		section.why-google-ads br { display: none;}
+		.our-technology.google-ads-599 { margin: 0; padding-bottom: 20px;}
+		.service-lets-talk ul#nav li { padding: 10px 0px;}
+		.service-lets-talk { padding: 50px 0px;}
+		.aria-455d6cs5d5c p.text-aria {margin-left: 0px !important;}
+		section.our-service.pad-top-50.aria-455d6cs5d5c p.text-aria {margin: 25px 0px;}
+		section.contact-main-aria { padding: 0px 0px 0px 0px !important;}
+		section.tab-section-d-single { padding: 20px;}
+		.our-technology.mobile { margin: 50px 0px; }
+		section.single-service-banner h2 { line-height: 30px; }
+		.col-md-9.right-logo-aria { margin: 25px 0px; }
+		.row.text-mobile { margin: 0px; }
+		.col-md-9.right-logo-aria img { margin-bottom: 25px; }
+		section.our-service.service-page { padding: 50px 20px; }
+		section.our-service.mobile { margin: 0px 0px; }
+		section.contact-main-aria.mobile {    padding: 0 5px !important; }
+		.single-list-item i {     font-size: 35px;     padding: 14px 8px; }
+		.left-con-aria {    padding: 40px 20px; }
+		p.text-aria {    text-align: justify; }
+		ul.dropdown-menu.menu-service > li {width: 100% !important; }
+		.our-technology { padding: 50px 20px 0px 20px;}
+		section.our-service.mobile.logo-aria {     margin-top: 40px; }
+		footer.footer-aria {    margin: 0;     padding: 0; }
+		.footer-top {     padding: 50px 20px 20px; }
+		.single-icon-item {     height: unset !important; }
+		.our-technology.mobile { margin: 50px 0px 0px;}
+		/*------*/
+		.section-title {  padding: 0 !important;}
+		header.header-aria {padding: 11px 0px;}
+        .navbar-default .navbar-collapse { border-color: #0000;}
+		section.section-notice { padding: 15px 0px;}
+		section.section-notice .col-md-3 { text-align: center !important;}
+
+}
+
+
+section.single-service-banner.digital-service {
+    border-bottom: 5px solid #2e90ea63 !important;
+}
+div#topcontrol img {
+    height: 45px !important;
+}
