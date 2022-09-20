@@ -8,208 +8,136 @@
       <meta name="Description" CONTENT="Best Web Development & Digital Company in UK">
       <title> Cubic Education </title>
       <!-- --- This Is Style -- -->
-      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <!-- <link href="assets/css/owl.carousel.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/animate.css" rel="stylesheet"> -->
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- <link rel="shortcut icon" href="assets/img/faviconn.png" type="image/x-icon" /> -->
-    <style type="text/css">  
-        @font-face {
-        font-family: "poppins";
-        src: url("assets/fonts/poppins/Poppins-Regular.ttf");
-        }
-
-        section.single-service-banner {
-            padding-bottom: 30px;
-        }
-        .panel.panel-default.tab-pad-s2 {
-            margin-top: 5px;
-        }
-        .our-technology.google-ads-599{
-            margin: 0;
-            padding: 0;
-        }
-        .our-technology {
-            padding-top: 0px;
-        }
-        section.our-service.service-page {
-            padding: 10px 0px 50px 0px;
-            background: #EDF1FF;
-        }
-        .google-ads-599.platform .single-icon-item {
-            height: 380px;
-        }
-        /* .header-aria a.navbar-brand {
-            background: url({{asset('assets/img/logo.png')}})no-repeat center center /cover;
-        } */
-        section.single-service-banner{
-        border-bottom: 5px solid #2e90ea63 !important;
-        }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+    
+<style type="text/css">
+  .navbar .megamenu{ padding: 1rem; }
+  /* ============ desktop view ============ */
+  @media all and (min-width: 992px) {
+    
+    .navbar .has-megamenu{position:static!important;}
+    .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+    
+  }	
+  /* ============ desktop view .end// ============ */
+  
+  
+  /* ============ mobile view ============ */
+  @media(max-width: 991px){
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+      overflow-y: auto;
+        max-height: 90vh;
+        margin-top:10px;
+    }
+  }
+  /* ============ mobile view .end// ============ */
+  </style>
+  
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(){
+          /////// Prevent closing from click inside dropdown
+          document.querySelectorAll('.dropdown-menu').forEach(function(element){
+            element.addEventListener('click', function (e) {
+              e.stopPropagation();
+            });
+          })
+      }); 
+    // DOMContentLoaded  end
+  </script>
+  
+  <style>
+    
+  </style>
 		
-<link href="assets/css/responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/custom.css">
+<!-- <link href="assets/css/responsive.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="assets/css/custom.css"> -->
 <link rel="stylesheet" href="assets/css/home-page.css">
           
-<style>
-    div#topcontrol {
-        bottom: 20px !important;
-        right: 24px !important;
-    }
 
-    @media only screen and (max-width: 600px) {
-      div#topcontrol {
-          bottom: 20px !important;
-          right: 15px !important;
-      }
-    }
-</style>
 
-<!-- --- This Extra Style for Each page -- -->          
-    <!-- @yield('style') -->
-<!-- --- This Extra Style for Each page -- -->
 </head>
     <body>
         <header class="header-aria">
+          <nav class="navbar navbar-expand-lg navbar-light bg-clight">
             <div class="container">
-              <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="custom-navbar-logo" href="#">
-                      <img style="width: 215px; height: 56px; padding-top: 15px;" src="assets/images/logo.png" alt="">
-                    </a>
-                  </div>
-          
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse top-header" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav nav-style topheader-ul">
-                      <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Study Abroad <span class="caret"></span></a>
-                        <ul class="dropdown-menu menu-service">
-                          <li class="service-list">
-                            <h5>Digital Marketing</h5>
-                            <ul>
-                          
-                          <li class="custom_dropdown"><i class="fa fa-caret-right"></i>
-                                Social Media Marketing
-                                <!--<ul>-->
-                                <!--  <li data-value="1"><a href="javascript:void(0)"> <i class="fa fa-caret-right"></i> -->
-                                <!--  Social Media Marketing </a>-->
-                                <!--  </li>-->
-                                <!--  <li data-value="1"><a href="javascript:void(0)"> <i class="fa fa-caret-right"></i> -->
-                                <!--  Social Media Marketing </a>-->
-                                <!--  </li>-->
-                                <!--  <li data-value="1"><a href="javascript:void(0)"> <i class="fa fa-caret-right"></i> -->
-                                <!--  Social Media Marketing </a>-->
-                                <!--  </li>-->
-                                <!--</ul>-->
-                          </li>
-                          
-                              <li><a href="#"><i class="fa fa-caret-right"></i> Social Media Management</a></li>
-                              <li><a href="#"><i class="fa fa-caret-right"></i> Google Search Ads</a></li>
-                              <li><a href="#"><i class="fa fa-caret-right"></i> Google Shopping Ads</a></li>
-                              <li><a href="#"><i class="fa fa-caret-right"></i> YouTube Ads</a></li>
-                              <li><a href="#"><i class="fa fa-caret-right"></i> Content Writing</a></li>
-                              <li><a href="#"><i class="fa fa-caret-right"></i> Email Marketing</a></li>
-                              <li><a href="#"><i class="fa fa-caret-right"></i> Telemarketing</a></li>
-                              <li><a href="#"><i class="fa fa-caret-right"></i> SMS Marketing</a></li>
+              <a class="navbar-brand" href="#">
+                <img class="img-fluid" style="width: 80%;" src="assets/images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav" style="margin-left: 335px;">
+                  <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
+                  <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"> Services </a></li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Study Abroad  </a>
+                    <div class="dropdown-menu megamenu w-75 m-auto" role="menu">
+                      <div class="row g-3">
+                        <div class="col-lg-3 col-6">
+                          <div class="col-megamenu">
+                            <h6 class="title">Title Menu One</h6>
+                            <ul class="list-unstyled">
+                              <li><a href="#">Custom Menu</a></li>
+                              <li><a href="#">Custom Menu</a></li>
                             </ul>
-                          </li>
-                          <li class="service-list">
-                            <h5>Search Engine Optimization(SEO)</h5>
-                            <ul>
-                              <li><a href="{{route('google.search.ads')}}"><i class="fa fa-caret-right"></i> Organic SEO</a></li>
-                              <li><a href="{{route('youtube.ads')}}"><i class="fa fa-caret-right"></i> Offpage SEO</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Onpage SEO</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Local SEO</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Guest Post Service</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> SEO Audit</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Online Reputation Management</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Ecommerce SEO</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Technical SEO</a></li>
-                              <li><a href="{{route('google.shopping.ads')}}"><i class="fa fa-caret-right"></i> Online Reputation Management</a></li>
+                          </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-lg-3 col-6">
+                          <div class="col-megamenu">
+                            <h6 class="title">Title Menu Two</h6>
+                            <ul class="list-unstyled">
+                              <li><a href="#">Custom Menu</a></li>
+                              <li><a href="#">Custom Menu</a></li>
                             </ul>
-                          </li>
-                          <li class="service-list">
-                            <h5>Graphic Design</h5>
-                            <ul>
-                              <li><a href="{{route('facebook.advertising')}}"><i class="fa fa-caret-right"></i> Logo Design</a></li>
-                              <li><a href="{{route('instagram.advertising')}}"><i class="fa fa-caret-right"></i> Clipping Path</a></li>
-                              <li><a href="{{route('linkedin.advertising')}}"><i class="fa fa-caret-right"></i> Photo</a></li>
-                              <li><a href="{{route('pinterest.advertising')}}"><i class="fa fa-caret-right"></i> Ecommerce Image Editing</a></li>
-                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Flyers & Brochures Design</a></li>
-                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Business Card Design</a></li>
-                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Banners Design</a></li>
-                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Social Media Ads Design</a></li>
-                              <li><a href="{{route('twitter.advertising')}}"><i class="fa fa-caret-right"></i> Clipping Path</a></li>
+                          </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                        <div class="col-lg-3 col-6">
+                          <div class="col-megamenu">
+                            <h6 class="title">Title Menu Three</h6>
+                            <ul class="list-unstyled">
+                              <li><a href="#">Custom Menu</a></li>
+                              <li><a href="#">Custom Menu</a></li>
                             </ul>
-                          </li>
-                          <li class="service-list">
-                            <h5>Mobile App Development</h5>
-                            <ul>
-                              <li><a href="{{route('organic.seo')}}"><i class="fa fa-caret-right"></i> Cross Platform App Development</a></li>
-                              <li><a href="{{route('onpage.seo')}}"><i class="fa fa-caret-right"></i> Android  Application Development</a></li>
-                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> IOS Application Development</a></li>
+                          </div>  <!-- col-megamenu.// -->
+                        </div>    
+                        <div class="col-lg-3 col-6">
+                          <div class="col-megamenu">
+                            <h6 class="title">Title Menu Four</h6>
+                            <ul class="list-unstyled">
+                              <li><a href="#">Custom Menu</a></li>
+                              <li><a href="#">Custom Menu</a></li>
                             </ul>
-                             <h5 style="padding-top:10px;">Website Development</h5>
-                            <ul>
-                              <li><a href="{{route('organic.seo')}}"><i class="fa fa-caret-right"></i> Business Web Development</a></li>
-                              <li><a href="{{route('onpage.seo')}}"><i class="fa fa-caret-right"></i> ECommerce Web Development</a></li>
-                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> Web Application Development</a></li>
-                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> Website Speed Optimization</a></li>
-                              <li><a href="{{route('ecommerce.seo')}}"><i class="fa fa-caret-right"></i> Website Maintenance Service</a></li>
-                            </ul>
-                          </li>
-                          <!-- <div class="mega-menu-middle-line"></div> -->
-                          
-                        </ul>
-                      </li>
-                      <li><a href="{{route('contact')}}">CONTACT US</a></li>
-          
-          
-          
-                                  <!-- {{-- @if(Auth::user())
-                      <li><a href="{{route('home')}}" style="background: #2171dd !important; color: #fff !important;">Admin Dashboard</a></li>
-                                  @endif --}} -->
-          
-          
-                    </ul>
-          
-          
-                    <ul class="nav navbar-nav navbar-right" style="margin-right: 0px !important; margin-left:0px !important">
-                   <!--    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <img src="{{asset('assets/img/header/1.png')}}" class="lang-img"> EN <span class="caret"></span></a>
-                        <ul class="dropdown-menu lang">
-                          <li><a href="#">ENG</a></li>
-                          <li><a href="#">BN</a></li>
-                        </ul>
-                      </li>   -->      
-                        <li><a href="" class="btn-top" style="background: #056CB3; border-radius: 5px !important; font-size: 11px !important;">Book on Appointment</a></li>
-                        <li style="margin-left: 8px !important;">
-                          <button class="btn btn-1 btn-sep icon-info">+88-01711541072</button>
-                        </li>
-                    </ul>
-                  </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav>
-            </div>
+                          </div>  <!-- col-megamenu.// -->
+                        </div><!-- end col-3 -->
+                      </div><!-- end row --> 
+                    </div> <!-- dropdown-mega-menu.// -->
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="#"> Contact </a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item me-2"><a class="nav-link btn-header" href="#"> Book on Appointment </a></li>
+                  <li class="nav-item"><button class="btn btn-sep btn-1 icon-info"> &nbsp; +8825478555698 </button></li>
+                  
+                </ul>
+              </div> <!-- navbar-collapse.// -->
+            </div> <!-- container-fluid.// -->
+            </nav>
+            
           </header>
 
-          <section class="banner-aria">
-            <div class="container">
+          <section class="topbanner-aria">
+            <!-- <div class="container">
         
-              <!-- <div class="row hero-section-row-wrapping">
+              <div class="row">
         
                   <div class="col-md-7">
                     <div  class="banner-left-aria">
@@ -233,13 +161,13 @@
                     </div>
                   </div>
                   
-              </div> -->
-            </div>
+              </div>
+            </div> -->
         </section>
 
 
         <!-- Our Services -->
-        <section class="pad-top-50 wow fadeInUp"  data-wow-duration="2.5s" data-wow-delay=".1s">
+        <section class="ourservice-section"  data-wow-duration="2.5s" data-wow-delay=".1s">
             <div class="container">
           
           
@@ -585,5 +513,6 @@
             </div>
         </div>
     </footer>
+
     </body>
 </html>

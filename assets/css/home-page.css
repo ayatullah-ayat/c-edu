@@ -46,7 +46,6 @@
     font-size: 15px;
     line-height: 33px;
     text-transform: capitalize;
-
     color: #313131;
 }
 .banner-aria-two .banner-left-aria a {
@@ -55,6 +54,13 @@
 }
 .banner-aria-two .banner-left-aria a:hover {
     background: #85d053 !important;
+}
+.btn-header {
+    background: #056CB3;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 8px 15px !important;
+    margin-top: 13px;
 }
 .btn {
 	border: none;
@@ -99,7 +105,7 @@
 }
 
 .btn-sep {
-	padding: 8px 6px 10px 45px;
+	padding: 8px 6px 6px 35px;
     padding-top: 12px;
     color: #056CB3;
     font-family: 'Inter';
@@ -154,4 +160,116 @@
     height: 333px;
     padding: 0px 15px;
     text-align: center;
+}
+
+
+/* navbar */
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #10246C;
+}
+
+/* banner area */
+
+.topbanner-aria {
+    /* background-image: url("{{ URL::asset('images/hero/Pink Color.png') }}") no-repeat center center/cover; */
+    background-image: url('../../images/hero/Cubic-Image-1 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 77px 0px 94px 0px;
+    width: 100%;
+    height: 550px;
+    /* border-bottom: 1px solid #2e90ea63; */
+}
+
+.banner-left-aria h2 {
+    color: #12384d;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.banner-left-aria h5 {
+    color: #f2623e;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* our service area */
+
+.single-icon-item {
+    /* height: 250px !important; */
+    text-align: center;
+    padding: 30px 20px;
+    margin: 14px 0px;
+    background: #FFFFFF;
+    border: 1px solid rgba(191, 191, 191, 0.38);
+    border-radius: 10px;
+    height: 405px;
+}
+.single-icon-item img {
+    width: 86px;
+    padding: 15px 0px;
+}
+
+.single-icon-item h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #004271;;
+    
+}
+.single-icon-item p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    /* or 136% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #3E3E3E;
+}
+
+.single-icon-item h3:hover {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #B6F78B;
+}
+
+.single-icon-item p:hover {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    /* or 136% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
 }
