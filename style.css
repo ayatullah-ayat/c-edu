@@ -65,7 +65,7 @@ ul.dropdown-menu.lang li a {
 }
 
 a.btn-top:hover{
-    background: #e98268 !important;
+    background: #215c83 !important;
 }
 
 .section-title {
@@ -239,12 +239,35 @@ header.header-aria nav.navbar.navbar-default {
 }
 
 
+a.btn-header-right {
+    border: 1px solid #74E629;
+    border-radius: 5px !important; 
+    font-size: 11px;
+    padding: 8px 15px !important;
+
+}
+a.btn-header-right button {
+    background-color: #74E629;
+    /* padding: 2px 5px; */
+}
 a.btn-top {
-    background: linear-gradient(3deg, rgba(7,46,196,1) 0%, rgba(48,151,236,1) 100%);;
+    background: #056CB3;
     color: #fff !important;
     border-radius: 50px;
-    padding: 12px 15px !important;
+    padding: 8px 15px !important;
     margin-top: 13px;
+}
+button.btn-top {
+    /* background: linear-gradient(3deg, rgba(7,46,196,1) 0%, rgba(48,151,236,1) 100%); */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 6px 24px !important;
 }
 ul.nav.navbar-nav.nav-style > li > a {
     color: #002e44;
@@ -379,7 +402,7 @@ li.service-list ul li a {
     background-position: center;
     padding: 77px 0px 94px 0px;
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 550px;
     left: 0px;
     /* border-bottom: 1px solid #2e90ea63; */
@@ -1136,41 +1159,7 @@ section.tab-section-single-page {
 }
 
 /* my design */
-.banner-aria-two {
-    background-color: #F6FAFF !;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 77px 0px 94px 0px;
-    width: 1440px;
-    height: 550px;
-}
-.banner-aria-two .banner-left-aria h5 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: #006DB9;
-}
-.banner-aria-two .banner-left-aria h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 33px;
-    text-transform: capitalize;
 
-    color: #313131;
-}
-.banner-aria-two .banner-left-aria a {
-    background: #74E529;
-    border-radius: 5px;
-}
-.banner-aria-two .banner-left-aria a:hover {
-    background: #85d053 !important;
-}
 .single-icon-item:hover {
     background: #006DB9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

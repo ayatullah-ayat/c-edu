@@ -20,3 +20,136 @@
 
     color: #313131 !important;
 }
+
+.banner-aria-two {
+    background-color: #F6FAFF !;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 77px 0px 94px 0px;
+    width: 100%;
+    height: 550px;
+}
+.banner-aria-two .banner-left-aria h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #006DB9;
+}
+.banner-aria-two .banner-left-aria h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 33px;
+    text-transform: capitalize;
+
+    color: #313131;
+}
+.banner-aria-two .banner-left-aria a {
+    background: #74E529;
+    border-radius: 5px;
+}
+.banner-aria-two .banner-left-aria a:hover {
+    background: #85d053 !important;
+}
+.btn {
+	border: none;
+	font-family: 'Lato';
+	font-size: inherit;
+	color: inherit;
+	cursor: pointer;
+	padding: 15px 20px;
+	display: inline-block;
+	margin: 12px 1px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+    border: 1px solid #74E629;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+.btn-sep {
+	padding: 8px 6px 10px 45px;
+    padding-top: 12px;
+    color: #056CB3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: capitalize;
+}
+
+.btn-sep:before {
+	background: rgba(0,0,0,0.15);
+    color: #74E529;
+    padding-top: 5px;
+}
+
+.btn-1 {
+	background: none;
+}
+
+
+.btn-1:active {
+	background: #2980b9;
+	top: 2px;
+}
+
+.btn-1:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 2;
+	font-size: 140%;
+	width: 36px;
+    color: white;
+    padding-top: 4px;
+    background: #74E629;
+    border-radius: 5px;
+}
+
+.icon-info:before {
+	content: "\f095";
+}
+
+.uni-list-section {
+    height: 542px;
+    background-color: #056CB3;
+}
+.unilist-sec-content {
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 333px;
+}
